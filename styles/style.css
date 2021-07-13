@@ -13,7 +13,7 @@ header{
 }
 header h2{
     color: #FFFFFF;
-    font-size: 40px;
+    font-size: 64px;
     font-weight: bold;
 }
 .header-btn{
@@ -74,4 +74,78 @@ header h2{
     font-size: 16px;
     font-weight: normal;
     color: #6C6C6C;
+}
+/* player all article ends here */
+
+/*---------------- 
+second section style
+---------------------*/
+.copa-america-about{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 99px;
+}
+.copa-america-higlights{
+    width: 466px;
+    height: 309px;
+
+}
+.highlight{
+    display: flex;
+    flex-direction: column;
+}
+.highlight h2{
+    font-weight: bold;
+    font-size: 48px;
+    color: black;
+}
+.highlight p{
+    font-size: 16px;
+    color: #6C6C6C;
+    margin-top: -5px;
+}
+.highlights-img img{
+    width: 567px;
+    height: 427px;
+    border-radius: 5px;
+}
+/* sponsors style  */
+.sponsors{
+    margin-top: 65px;
+}
+.sponsors-title{
+    text-align: center;
+    color: rgba(72, 135, 207, 0.801);
+}
+.sponsors-img{
+    display: flex;
+    justify-content: center;
+    width: 86px;
+    height: 50px;
+    margin-left: 47%;
+}
+/* footer styles  */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+.football-logo img{
+    width: 483.87px;
+    height: 110px;
+}
+.social-icon{
+    width: 174px;
+    height: 25px;
+}
+.social-icon li{
+    display: inline-block;
+    list-style: none;
+    width: 38px;
+    height: 32px;
+}
+.social-icon .fab{
+    background-color: #969BAB;
+    border-radius: 50%;
 }
