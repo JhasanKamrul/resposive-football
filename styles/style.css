@@ -186,8 +186,8 @@ footer{
       }
     .copa-america-higlights{
         width: 329px;
-       height: 299px;
-       flex-direction: column;
+        height: 299px;
+        flex-direction: column;
     }
     .highlight h2{
         font-size: 30px;
@@ -203,7 +203,7 @@ footer{
     .football-logo img{
         max-width: 100%;
     }
-    .social-icon .fab{
+    .social-icon .fab{ 
         max-width: 100%;
     }
  }
