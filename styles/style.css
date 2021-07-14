@@ -26,6 +26,11 @@ header h2{
     border-radius: 5px;
     cursor: pointer;
 }
+/* hover effect on button  */
+.header-btn:hover{
+    transform:scale(1.2);
+    transition: transform 2s ease-in-out;
+}
 .header-btn-watch a{
     text-decoration: none;
     color: white;
@@ -39,11 +44,6 @@ header h2{
 .header-img img{
     width: 556.01px;
     height: 438px;
-}
-/* hover effect on image  */
-.header-img:hover img{
-    transform:scale(1.3) rotate(20deg);
-    transition: transform 2s ease-in-out,rotate 2s ease-in-out;
 }
 /* player style  */
 .container{
@@ -109,7 +109,11 @@ second section style
     height: 427px;
     border-radius: 5px;
 }
-/* sponsors style  */
+
+/*-----------------
+ sponsors style 
+ ------------------ */
+
 .sponsors{
     margin-top: 65px;
 }
@@ -139,13 +143,81 @@ footer{
     width: 174px;
     height: 25px;
 }
-.social-icon li{
-    display: inline-block;
-    list-style: none;
-    width: 38px;
-    height: 32px;
+.social-icon{
+    font-size: 2em;
+    margin-bottom: 10px;
+    
 }
 .social-icon .fab{
-    background-color: #969BAB;
-    border-radius: 50%;
+    padding-right: 5px;
 }
+
+/* @media only screen and (max-width:688px) {
+    header{
+        width: 100%;
+        height: 695px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-startx;
+    }
+    .header-title{
+        flex-direction: column;
+    }
+    .header-phara{
+        font-size: 36px;
+        width: 278px;
+        height: 138px;
+    }
+    /* .header-btn{
+        width: 168px;
+        height: 44px;
+    } */
+    /* .header-img{
+        width: 329px;
+        height: 259.17px;
+    }
+} */
+/*------------------
+ mobile devices media query 
+ -------------------*/
+ @media only screen and (max-width:688px){
+    header{
+        max-width: 100%;
+        height: auto;
+        overflow: hidden;
+        flex-direction: column;
+    }
+    .header-phara h2{
+        font-size: 36px;
+    }
+    .header-img{
+        margin-top: 52px;
+        max-width: 80%;
+        margin-left: 50%;
+        transform: translate(-50%);
+    }
+     .players{
+         width: 100%;
+         grid-template-columns: repeat(1,1fr);
+      } 
+      .copa-america-about{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+      }
+    .copa-america-higlights{
+        width: 329px;
+       height: 299px;
+       flex-direction: column;
+    }
+    .highlight h2{
+        font-size: 30px;
+    }
+    .highlights-img img{
+        width: 350px;
+        height: 248px;
+        margin-top: 45px;
+    }
+
+ }
