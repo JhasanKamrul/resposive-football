@@ -162,7 +162,7 @@ footer{
     header{
         max-width: 100%;
         height: auto;
-        overflow: hidden;
+        overflow-x: hidden;
         flex-direction: column;
     }
     .header-phara h2{
@@ -182,6 +182,7 @@ footer{
           display: flex;
           flex-direction: column;
           justify-content: space-around;
+          max-width: 100%;
       }
     .copa-america-higlights{
         width: 329px;
@@ -195,5 +196,14 @@ footer{
         width: 350px;
         height: 248px;
         margin-top: 45px;
+    }
+    ..sponsors-img img{
+        max-width: 100%;
+    }
+    .football-logo img{
+        max-width: 100%;
+    }
+    .social-icon .fab{
+        max-width: 100%;
     }
  }
